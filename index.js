@@ -69,7 +69,7 @@ axios.get("https://raw.githubusercontent.com/priyanshu192/bot/main/package.json"
         logger(res.data.description, "[ Mirrykal ]");
     })
     .catch((err) => {
-        logger(`Failed to fetch update info: ${err.message}`, "[ Rudra ]");
+        logger(`Failed to fetch update info: ${err.message}`, "[ Wasu ]");
     });
 
 // Start the bot
